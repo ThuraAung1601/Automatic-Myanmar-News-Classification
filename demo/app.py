@@ -4,7 +4,7 @@ import numpy as np
 import pyidaungsu as pds
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-PATH = "https://github.com/ThuraAung1601/Automatic-Myanmar-News-Classification/tree/main/demo/"
+PATH = "Automatic-Myanmar-News-Classification/demo/"
 
 stopwordslist = []
 slist = []
