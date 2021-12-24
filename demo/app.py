@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 stopwordslist = []
 slist = []
 
-with open("./stop_words.txt", encoding = 'utf8') as stopwordsfile:
+with open("stop_words.txt", encoding = 'utf8') as stopwordsfile:
     stopwords = stopwordsfile.readlines()
     slist.extend(stopwords)
 
