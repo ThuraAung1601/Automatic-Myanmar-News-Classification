@@ -4,10 +4,12 @@ import numpy as np
 import pyidaungsu as pds
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+PATH = "Automatic-Myanmar-News-Classification/demo/"
+
 stopwordslist = []
 slist = []
 
-with open("stop_words.txt", encoding = 'utf8') as stopwordsfile:
+with open(PATH + "stop_words.txt", encoding = 'utf8') as stopwordsfile:
     stopwords = stopwordsfile.readlines()
     slist.extend(stopwords)
 
@@ -29,11 +31,11 @@ def tokenize(line):
     sentence = stop_word(sentence)
     return sentence
 
-filename = 'nb_model.sav'
+filename = PATH + 'nb_model.sav'
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 
-vectorizer = pickle.load(open("vectorizer.pickle", "rb"))
+vectorizer = pickle.load(open(PATH + "vectorizer.pickle", "rb"))
 
 st.title('Automatic News Classification System for Myanmar Language')
 st.subheader("Input the News content below")
