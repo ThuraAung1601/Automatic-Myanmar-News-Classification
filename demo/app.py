@@ -29,7 +29,7 @@ def tokenize(line):
     sentence = stop_word(sentence)
     return sentence
 
-filename = './nb_model.sav'
+filename = 'nb_model.sav'
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 
