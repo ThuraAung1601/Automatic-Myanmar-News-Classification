@@ -1,7 +1,6 @@
-pyidaungsu
 streamlit
-matpltlib
+matplotlib
 numpy
 scikit-learn
 pandas
-
+pyidaungsu
