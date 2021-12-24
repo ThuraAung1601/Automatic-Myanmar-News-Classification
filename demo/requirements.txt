@@ -1,5 +1,4 @@
 pyidaungsu
-streamlit
 matpltlib
 numpy
 scikit-learn
