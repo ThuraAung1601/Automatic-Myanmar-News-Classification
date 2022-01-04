@@ -6,6 +6,9 @@ Automatic Myanmar News Classification System using Multinomial Naive Bayes. I ha
 - Tokenzation is done by using pyidaungsu library which is based on fasttext.
 - The vecotorizer I used is tf-idf.
 
+## System Design proposed in MACHINE LEARNING ALGORITHMS FOR MYANMAR NEWS CLASSIFICATION [2] 
+![System](system_design.png)
+
 ## Dataset
 
 Dataset is taken from Aye Hnin Khine's [repository](https://github.com/ayehninnkhine/MyanmarNewsClassificationSystem)
