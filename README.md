@@ -3,10 +3,14 @@
 ## Project Overview
 
 Automatic Myanmar News Classification System using Multinomial Naive Bayes. I have examined also with other machine learning algorithms - Linear SVM, KNN, Random Forest and Decision Tree. The weighted f-score is highest when using Linear SVM.
+- A.H.Khine, K.T.Nwet, K.M.Soe, Automatic Myanmar News Classification proposed a system which is based on Naive Bayes. I used their dataset for training the model.[1]
 - Tokenzation is done by using pyidaungsu library which is based on fasttext.
 - The vecotorizer I used is tf-idf.
 
-## System Design proposed in MACHINE LEARNING ALGORITHMS FOR MYANMAR NEWS CLASSIFICATION [2] 
+## System Design
+
+- I use the system design proposed in Nwet, Khin & Darren, Seth, Machine Learning Algorithms for Myanmar News Classification [2] 
+
 ![System](system_design.png)
 
 ## Dataset
