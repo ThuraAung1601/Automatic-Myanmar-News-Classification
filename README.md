@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-Automatic Myanmar News Classification System using Multinomial Naive Bayes. I have examined also with other machine learning algorithms - Linear SVM, KNN, Random Forest and Decision Tree. The weighted f-score is highest when using Linear SVM and Multinomial Naive Bayes algorithm. THe vecotorizer I used is tf-idf.
+Automatic Myanmar News Classification System using Multinomial Naive Bayes. I have examined also with other machine learning algorithms - Linear SVM, KNN, Random Forest and Decision Tree. The weighted f-score is highest when using Linear SVM.
+- Tokenzation is done by using pyidaungsu library which is based on fasttext.
+- The vecotorizer I used is tf-idf.
 
 ## Dataset
 
@@ -17,18 +19,18 @@ Dataset is taken from Aye Hnin Khine's [repository](https://github.com/ayehninnk
 | Model                       | F1-score     |
 |:---------------------------:|:------------:|
 | K nearest Neighbour         | 62%          |
-| Decision Tree               | 64%          |
-| Random Forest               | 76%          |
-| Linear SVM                  | 77%          |
-| **Multinomial Naive Bayes**     | **77%**         |
+| Decision Tree               | 74%          |
+| Random Forest               | 81%          |
+| Multinomial Naive Bayes     | 85%          |
+| **Linear SVM**              | **86%**      |
 
 ## Demonstration
 
 Demonstration available [HERE](https://share.streamlit.io/thuraaung1601/automatic-myanmar-news-classification/main/app.py)
 ![Demo](media/result.gif)
 
-## How to ?
-
+## How to run demo
+- Download this repository
 - Install requirements
 ```{r, engine='bash', count_lines}
 tra@thura-pc:~$ pip install -r requirements.txt
