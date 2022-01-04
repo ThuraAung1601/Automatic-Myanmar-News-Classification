@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 stopwordslist = []
 slist = []
 
-with open("./stop_words.txt", encoding = 'utf8') as stopwordsfile:
+with open("./stopword.txt", encoding = 'utf8') as stopwordsfile:
     stopwords = stopwordsfile.readlines()
     slist.extend(stopwords)
 
@@ -29,7 +29,7 @@ def tokenize(line):
     sentence = stop_word(sentence)
     return sentence
 
-filename = './nb_model.sav'
+filename = './svm_model.sav'
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 
