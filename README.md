@@ -1,4 +1,4 @@
-# myNews : Automatic Myanmar News Classification
+# Automatic Myanmar News Classification
 
 ## Project Overview
 
